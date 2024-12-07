@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(149, 205, 189);
+    font-family: sans-serif;
+    display: flex;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+.header h1{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-left: 500px;
+    list-style: none;
+    padding-top: 20px;
+    font-weight: bold;
+    
+
+}
+.header li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.header a:hover{
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+/* Section Two */
+
+.menu{
+    text-align: center;
+    margin-top: 50px;
+}
+.menu h1{
+    padding-bottom: 5px;
+    color: red;
+}
+
+.menu p{
+    padding-bottom: 10px;
+    color: blue;
+}
+
+.menu button{
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 30px
+}
+.menu button:hover{
+    background-color: blue;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Section Threee */
+
+.service-header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.service-box{
+    background-color:  green;
+    width: 300px;
+    height: 350px;
+    padding: 20px 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    line-height: 40px;
+    font-size: 8px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover{
+background-color: red;
+}
+
+.service-box h1{
+    padding-left: 50px;
+    color: white;
+}
+
+.service-box img{
+    width: 100px;
+    padding-left: 100px;
+
+}

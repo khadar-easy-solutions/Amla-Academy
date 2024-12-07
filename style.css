@@ -1,0 +1,66 @@
+/* General Reset */
+body, h1, h2, h5, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.header h1 {
+  font-size: 24px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.header li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+/* Section Two */
+.section2 {
+  text-align: center;
+  padding: 20px;
+}
+.section2 .box {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.section2 .btn-html {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Lessons Section */
+.lessons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.lesson-one {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+
